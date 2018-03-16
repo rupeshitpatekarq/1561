@@ -299,7 +299,7 @@ public class BigtableOptions implements Serializable {
       dataChannelCount = 1;
       instanceName = null;
       usePlaintextNegotiation = false;
-      useCachedDataPool = false;
+      useCachedDataPool = true;
 
       bulkOptions = null;
       callOptionsConfig = null;
